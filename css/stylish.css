@@ -1,0 +1,222 @@
+.type-writer{
+  width: 0;
+  font-weight: bold;
+  text-shadow: .5px .5px rgb(26, 77, 84);
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(247, 186, 74);
+  margin: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing-deleting-text-1;
+  animation-duration: 5s;
+  animation-timing-function: steps(20,end);
+  animation-delay:1s;
+}
+
+@keyframes typing-deleting-text-1 {
+  0% {
+    width: 0;
+    border-right: 3px solid black;}
+  40% {
+    width: 300px;
+    border-right: 3px solid black;
+  }
+  60% {
+    width: 300px;
+    border-right: 3px solid black;
+  }
+  100% {
+    width: 0px;
+    border-right: 3px solid transparent;
+  }
+}
+
+.type-writer2{
+  width: 0;
+  font-weight: bold;
+  text-shadow: .5px .5px rgb(26, 77, 84);
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(247, 186, 74);
+  margin: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing-deleting-text-2;
+  animation-duration: 4s;
+  animation-timing-function: steps(16,end);
+  animation-delay:6.5s;
+}
+
+@keyframes typing-deleting-text-2 {
+  0% {
+    width: 0;
+    border-right: 3px solid black;}
+  40% {
+    width: 240px;
+    border-right: 3px solid black;
+  }
+  60% {
+    width: 240px;
+    border-right: 3px solid black;
+  }
+  100% {
+    width: 0px;
+    border-right: 3px solid transparent;
+  }
+}
+
+.type-writer3{
+  width: 0px;
+  font-weight: bold;
+  text-shadow: .5px .5px rgb(26, 77, 84);
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(247, 186, 74);
+  margin: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing-deleting-text-3;
+  animation-duration: 2s;
+  animation-timing-function: steps(4, end);
+  animation-delay:11s;
+}
+
+@keyframes typing-deleting-text-3 {
+  0% {
+    width: 0;
+    border-right: 3px solid black;}
+  40% {
+    width: 90px;
+    border-right: 3px solid black;
+  }
+  60% {
+    width: 90px;
+    border-right: 3px solid black;
+  }
+  100% {
+    width: 0px;
+    border-right: 3px solid transparent;
+  }
+}
+
+.type-writer4{
+  width: 0;
+  font-weight: bold;
+  text-shadow: .5px .5px rgb(26, 77, 84);
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(247, 186, 74);
+  margin: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing-deleting-text-4;
+  animation-duration: 3.6s;
+  animation-timing-function: steps(13, end);
+  animation-delay:13.5s;
+}
+
+@keyframes typing-deleting-text-4 {
+  0% {
+    width: 0;
+    border-right: 3px solid black;}
+  40% {
+    width: 215px;
+    border-right: 3px solid black;
+  }
+  60% {
+    width: 215px;
+    border-right: 3px solid black;
+  }
+  100% {
+    width: 0px;
+    border-right: 3px solid transparent;
+  }
+}
+
+.type-writer5{
+  width: 0;
+  font-weight: bold;
+  text-shadow: .5px .5px rgb(26, 77, 84);
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(247, 186, 74);
+  margin: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing-deleting-text-5;
+  animation-duration: 1.9s;
+  animation-timing-function: steps(6, end);
+  animation-delay:17.6s;
+}
+
+@keyframes typing-deleting-text-5 {
+  0% {
+    width: 0;
+    border-right: 3px solid black;}
+  40% {
+    width: 115px;
+    border-right: 3px solid black;
+  }
+  60% {
+    width: 115px;
+    border-right: 3px solid black;
+  }
+  100% {
+    width: 0px;
+    border-right: 3px solid transparent;
+  }
+}
+
+.type-writer6{
+  width: 0;
+  font-weight: bold;
+  text-shadow: .5px .5px rgb(26, 77, 84);
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(247, 186, 74);
+  margin: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing-deleting-text-6;
+  animation-duration: 1.7s;
+  animation-timing-function: steps(20,end);
+  animation-delay:20s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing-deleting-text-6 {
+  0% {
+    width: 0;
+    border-right: 3px solid black;}
+  100% {
+    width: 300px;
+    border-right: 3px solid transparent;
+  }
+}
+.title-name {
+  color: white;
+  margin-top: -200%;
+  text-shadow: 0 1px 0 #ccc,
+             0 2px 0 #09232f,
+             0 3px 0 #bbb,
+             0 4px 0 #09232f,
+             0 5px 0 #aaa,
+             0 6px 1px rgba(0,0,0,.1),
+             0 0 5px rgba(0,0,0,.1),
+             0 1px 3px rgba(0,0,0,.3),
+             0 3px 5px rgba(0,0,0,.2),
+             0 5px 10px rgba(0,0,0,.25),
+             0 10px 10px rgba(0,0,0,.2),
+             0 20px 20px rgba(0,0,0,.15);
+}
+
+.title-text {
+  padding-bottom: 200px;
+}
+.med-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
